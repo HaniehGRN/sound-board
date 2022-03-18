@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "lato" , sans-serif;
+    background-color: rgb(141, 24, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#btncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    background-color: rgb(95, 10, 165);
+    padding: 15px 35px;
+    color: #fff;
+    margin: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid 1px rgb(95, 10, 165);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn.scale {
+    transform: scale(0.98);
+}
